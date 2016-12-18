@@ -11,7 +11,20 @@
     tools:context="fugoki.com.recyclingfacts.RecyclingFactsActivity">
 
     <TextView
+        android:text=" الاف المخلوقات البحرية تموت بسبب ابتلاعها أكياس البلاستيك التي تشبه قنديل البحر"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="حقائق إعادة التدوير" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="حقائق إعادة التدوير"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="25sp" />
 </RelativeLayout>
