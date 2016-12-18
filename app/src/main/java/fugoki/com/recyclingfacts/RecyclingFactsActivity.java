@@ -15,5 +15,9 @@ public class RecyclingFactsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycling_facts);
+
+        // تعين المتغيرات
+        factTextView = (TextView) findViewById(R.id.factTextView);
+        factButton = (Button) findViewById(R.id.factButton);
     }
 }
