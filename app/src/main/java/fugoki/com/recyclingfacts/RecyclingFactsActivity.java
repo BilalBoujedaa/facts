@@ -5,8 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-import java.util.Random;
+import android.widget.Toast;
 
 public class RecyclingFactsActivity extends AppCompatActivity {
 
@@ -32,11 +31,15 @@ public class RecyclingFactsActivity extends AppCompatActivity {
                 String fact = recyclingFactsGenerator.generateFact();
 
                 factTextView.setText(fact);
+
+                Toast.makeText(RecyclingFactsActivity.this, "تم ضغط الزر", Toast.LENGTH_SHORT).show();
             }
         };
 
 
         // تعين سامع للزر
         factButton.setOnClickListener(onClickListener);
+
+        Toast.makeText(RecyclingFactsActivity.this, "تم التشغيل", Toast.LENGTH_LONG).show();
     }
 }
