@@ -23,7 +23,9 @@ public class RecyclingFactsActivity extends AppCompatActivity {
             "بداية من عام 2015 جميع سكان نيويورك عليهم اعادة تدوير الاجهزة الالكترونية والا سيواجهون غرامه مقدارها 100 دولا",
             "اعادة تدوير علبة المنيوم يمكن ان يوفر طاقة تكفي لتشغيل تلفاز لساعتين",
             "اعادة تدوير طن من الورق يحافظ على 17 شجره",
-            "اعادة تدوير علبة المنيوم يمكن ان يعيدها الى رف متجر خلال 60 يوم"
+            "اعادة تدوير علبة المنيوم يمكن ان يعيدها الى رف متجر خلال 60 يوم",
+
+            "إبدأ إعادة التدوير بتقليل استخدامك للبلاستك"
     };
 
     @Override
@@ -42,7 +44,7 @@ public class RecyclingFactsActivity extends AppCompatActivity {
                 // هنا سيتم تغير الجملة في البرنامج
                 String fact;
                 Random randomGen = new Random();
-                int randomNumber = randomGen.nextInt(9);
+                int randomNumber = randomGen.nextInt(facts.length);
 
                 fact = facts[randomNumber];
 
