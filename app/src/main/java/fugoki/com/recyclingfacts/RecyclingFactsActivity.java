@@ -2,6 +2,7 @@ package fugoki.com.recyclingfacts;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -14,6 +15,8 @@ public class RecyclingFactsActivity extends AppCompatActivity {
     private Button factButton;
 
     private RecyclingFactsGenerator recyclingFactsGenerator = new RecyclingFactsGenerator();
+
+    private static final String TAG = "TAG_FACT";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,5 +44,7 @@ public class RecyclingFactsActivity extends AppCompatActivity {
         factButton.setOnClickListener(onClickListener);
 
         Toast.makeText(RecyclingFactsActivity.this, "تم التشغيل", Toast.LENGTH_LONG).show();
+
+        Log.e(TAG, "Our app crashed!");
     }
 }
