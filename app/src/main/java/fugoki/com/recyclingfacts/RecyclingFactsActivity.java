@@ -25,7 +25,10 @@ public class RecyclingFactsActivity extends AppCompatActivity {
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // هنا سيتم تغير الجملة في البرنامج
+                String fact = "في كل عام يرمي الامريكان قوارير وزجاجات كافية لوصول القمر والعودة اليه 20 مره";
 
+                factTextView.setText(fact);
             }
         };
 
