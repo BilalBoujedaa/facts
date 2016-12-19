@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Random;
+
 public class RecyclingFactsActivity extends AppCompatActivity {
 
     // هنا سنعرف المتغيرات
@@ -27,8 +29,10 @@ public class RecyclingFactsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // هنا سيتم تغير الجملة في البرنامج
                 String fact = "في كل عام يرمي الامريكان قوارير وزجاجات كافية لوصول القمر والعودة اليه 20 مره";
+                Random randomGen = new Random();
+                int randomNumber = randomGen.nextInt(9);
 
-                factTextView.setText(fact);
+                factTextView.setText(randomNumber + "");
             }
         };
 
