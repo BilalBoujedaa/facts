@@ -3,4 +3,6 @@
     <string name="recycling_facts_activity_title">حقائق إعادة التدوير</string>
     <string name="give_me_what_you_have">أعطني من ما عندك</string>
     <string name="thousands_of_animals_are_dying_because_of_the_plastic_bags_that_looks_like_jellyfish"> الاف المخلوقات البحرية تموت بسبب ابتلاعها أكياس البلاستيك التي تشبه قنديل البحر</string>
+    <string name="button_pressed">تم ضغط الزر</string>
+    <string name="app_started">تم التشغيل</string>
 </resources>

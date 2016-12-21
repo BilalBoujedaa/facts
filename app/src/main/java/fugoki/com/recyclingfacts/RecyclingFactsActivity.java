@@ -35,7 +35,7 @@ public class RecyclingFactsActivity extends AppCompatActivity {
 
                 factTextView.setText(fact);
 
-                Toast.makeText(RecyclingFactsActivity.this, "تم ضغط الزر", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RecyclingFactsActivity.this, getResources().getString(R.string.button_pressed), Toast.LENGTH_SHORT).show();
             }
         };
 
@@ -43,7 +43,7 @@ public class RecyclingFactsActivity extends AppCompatActivity {
         // تعين سامع للزر
         factButton.setOnClickListener(onClickListener);
 
-        Toast.makeText(RecyclingFactsActivity.this, "تم التشغيل", Toast.LENGTH_LONG).show();
+        Toast.makeText(RecyclingFactsActivity.this, getResources().getString(R.string.app_started), Toast.LENGTH_LONG).show();
 
         Log.e(TAG, "Our app crashed!");
     }
