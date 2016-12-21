@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text=" الاف المخلوقات البحرية تموت بسبب ابتلاعها أكياس البلاستيك التي تشبه قنديل البحر"
+        android:text="@string/thousands_of_animals_are_dying_because_of_the_plastic_bags_that_looks_like_jellyfish"
         android:textColor="@android:color/white"
         android:textSize="25sp" />
 
@@ -28,7 +28,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="حقائق إعادة التدوير"
+        android:text="@string/recycling_facts_activity_title"
         android:textColor="@android:color/white"
         android:textSize="25sp" />
 
@@ -39,6 +39,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/black"
-        android:text="أعطني من ما عندك"
+        android:text="@string/give_me_what_you_have"
         android:textColor="@android:color/white" />
 </RelativeLayout>
