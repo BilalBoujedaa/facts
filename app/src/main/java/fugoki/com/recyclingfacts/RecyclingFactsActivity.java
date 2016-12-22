@@ -14,7 +14,7 @@ public class RecyclingFactsActivity extends AppCompatActivity {
     private TextView factTextView;
     private Button factButton;
 
-    private RecyclingFactsGenerator recyclingFactsGenerator = new RecyclingFactsGenerator();
+    private RecyclingFactsGenerator recyclingFactsGenerator;
 
     private static final String TAG = "TAG_FACT";
 
@@ -26,6 +26,8 @@ public class RecyclingFactsActivity extends AppCompatActivity {
         // تعين المتغيرات
         factTextView = (TextView) findViewById(R.id.factTextView);
         factButton = (Button) findViewById(R.id.factButton);
+
+        recyclingFactsGenerator = new RecyclingFactsGenerator(this);
 
         // تعريف السامع
         View.OnClickListener onClickListener = new View.OnClickListener() {
