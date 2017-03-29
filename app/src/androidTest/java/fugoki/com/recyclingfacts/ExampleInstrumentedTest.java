@@ -1,4 +1,4 @@
-package fugoki.com.recyclingfacts;
+package barmej.com.recyclingfacts;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("fugoki.com.recyclingfacts", appContext.getPackageName());
+        assertEquals("barmej.com.recyclingfacts", appContext.getPackageName());
     }
 }

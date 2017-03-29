@@ -1,4 +1,4 @@
-package fugoki.com.recyclingfacts;
+package barmej.com.recyclingfacts;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
